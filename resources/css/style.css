@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid Black;
+}
+
+.header img {
+  border-left: 2px solid MediumAquamarine;
+}
+
+.header p {
+  color: MediumAquaMarine;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav ul {
+  style: none;
+}
