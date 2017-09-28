@@ -4,21 +4,30 @@
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid Black;
+  width: 100%;
 }
 
 .header img {
-  border-left: 2px solid MediumAquamarine;
 }
 
-.header p {
+.logo p {
   color: MediumAquaMarine;
+  display: inline-flex;
+}
+
+nav {
   display: flex;
 }
 
-.nav {
-  display: flex;
+nav span {
+  list-style: none;
+  display: inline-block;
 }
 
-.nav ul {
-  style: none;
+nav a {
+  color: black;
+}
+
+nav span {
+
 }
