@@ -50,6 +50,12 @@ header {
   top: 100px;
 }
 
+.content p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .columnlarge {
   margin-right: 15px;
   width: 630px;
@@ -66,10 +72,6 @@ header {
   width: 240px;
 }
 
-div {
-  border: 1px solid black;
-}
-
 #tunaimage {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
@@ -82,10 +84,22 @@ div {
   height: 300px;
 }
 
+.large2 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
 #cameraimage {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   height: 300px;
+}
+
+.large3 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 #catimage {
@@ -109,4 +123,9 @@ div {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+.inline-block {
+  display: flex;
+  justify-content: space-between;
 }
