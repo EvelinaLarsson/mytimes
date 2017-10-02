@@ -70,6 +70,7 @@ header {
 .columnsmall {
   margin-left: 15px;
   width: 240px;
+  flex-direction: column;
 }
 
 #tunaimage {
@@ -128,4 +129,19 @@ header {
 .inline-block {
   display: flex;
   justify-content: space-between;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.small1 span {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px 25px;
 }
