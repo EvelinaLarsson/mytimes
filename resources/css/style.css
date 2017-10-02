@@ -9,8 +9,8 @@ header {
   align-items: center;
   border-bottom: 1px solid black;
   position: fixed;
-  z-index: 10;
-  margin: 10px;
+  z-index: 1;
+  background-color: white;
 }
 
 .logo {
@@ -48,7 +48,6 @@ header {
   display: flex;
   position: relative;
   top: 100px;
-  padding-top: 33px;
 }
 
 .columnlarge {
@@ -67,22 +66,24 @@ header {
   width: 240px;
 }
 
-.columnsmall img {
-  width: 238px;
-}
-
-span {
-  display: block;
-}
-
 div {
   border: 1px solid black;
 }
 
-.large1 span {
-
+#tunaimage {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
 }
 
-.main-image {
-  background-image: url(./resources/css/img-story-main.png);
+#earthimage {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+}
+
+#cameraimage {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
 }
